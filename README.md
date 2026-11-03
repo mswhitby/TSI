@@ -18,7 +18,11 @@ Five 30-minute sessions for seniors preparing to retake TSIA2 Mathematics. Math 
 - [Week overview](teachers/week-01/overview.md), [explained answer key](teachers/week-01/answer-key.md), and [progress recording template](tracking/week-01-template.csv).
 - [Pearson resource selections and provenance](resources/README.md).
 
-Students do not need GitHub accounts to use teacher-distributed printouts or downloaded lesson files. GitHub hosts the curriculum, not student accounts. There is no deployed student portal, signup, class-code enrollment, or school dashboard in this sample.
+Students do not need GitHub accounts to use teacher-distributed printouts or downloaded lesson files. GitHub hosts the curriculum, not student accounts. The open Playground demo provides browser-only practice; signup, class-code enrollment, and a school dashboard are not implemented.
+
+### Playground demo
+
+The curriculum is also packaged into the [open TSI Math Playground demo](https://www.mswhitby.com/playground/#/course/tsi-math), with interactive practice, browser-only first/latest check results, and a [facilitator preview](https://www.mswhitby.com/playground/#/course/tsi-math/teacher). No login is required. Signup, class-code enrollment, teacher uploads, and schoolwide reporting remain unimplemented. See the [teacher contribution proposal](docs/teacher-content-bank.md) for personal libraries and a reviewed school bank.
 
 ## How to run it
 

@@ -4,6 +4,8 @@
 
 One complete curriculum week: student lessons, 50 original questions, teacher guides, an explained key, resource selections, and a printable student packet. Lessons require no account. No authentication, enrollment, saved student progress, or dashboard is implemented in this repository.
 
+The shared Playground now packages a matching curriculum/key snapshot into an open TSI Math demo. It provides student lessons, practice feedback, browser-only first/latest results, and a public facilitator preview. It has no shared student records or staff-only workspace. Curriculum authoring stays in this repository. The [teacher content-bank proposal](teacher-content-bank.md) describes the next phase.
+
 ## Proposed student experience
 
 1. Open TSI Math from Playground.
