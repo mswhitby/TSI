@@ -1,0 +1,32 @@
+name: Validate TSI curriculum
+on:
+  push:
+    branches: [main, feature/tsia2-four-strand-content-20261106]
+  pull_request:
+jobs:
+  curriculum:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate published Week 1 and resource metadata
+        run: python3 scripts/validate.py
+      - name: Validate new strand draft lessons
+        run: python3 scripts/validate_strands.py
+      - name: Validate all 81 MATH code profiles
+        run: |
+          python3 - <<'PY'
+          import json
+          p=json.load(open('content/math-locator-profiles.json'))
+          assert len(p['profiles'])==81
+          assert len({x['code'] for x in p['profiles']})==81
+          names=['quantitative','algebraic','geometry','statistics']
+          levels=['Basic','Proficient','Advanced']
+          for i,item in enumerate(p['profiles']):
+              assert item['code']==f'MATH{i+1:02d}'
+              digits=[(i//(3**(3-j)))%3 for j in range(4)]
+              assert [item['levels'][n] for n in names]==[levels[d] for d in digits]
+          print('PASS: 81 locator profiles')
+          PY
