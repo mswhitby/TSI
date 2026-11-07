@@ -64,3 +64,9 @@ The build regenerates student Markdown, the printable HTML packet, and the teach
 ## Sources and reuse
 
 All authored lesson prose, worked examples, questions, and teacher explanations are original companion materials. Pearson resources remain linked with their original identifiers and metadata; no Pearson PDF, video, or interactive is copied here. Topic alignment uses [College Board's Mathematics Test Specifications](https://accuplacer.collegeboard.org/accuplacer/pdf/tsia2-mathematics-test-specifications.pdf), particularly the CRC content descriptions. This is an independent instructional project, not an official College Board or Pearson assessment.
+
+## Four-strand content expansion (draft)
+
+Four new original lessons are now authored in `lessons/strands/` and indexed in `content/strand-lessons-v1.json`: unit rates/proportions, factoring quadratics, right triangles/area, and data summaries/probability. Each has a guided worked example and four multiple-choice practice questions; explained instructional keys are in `teachers/strands/`. These files are **draft curriculum**, not yet included in `course.json` or the live Playground build. Published Week 1 IDs, order, student progress, and points remain unchanged.
+
+Run `python3 scripts/validate_strands.py` for structural checks and `python3 scripts/validate.py` for existing Week 1 checks. The new answer explanations require teacher editorial review before publication; these are not protected grading tests. More lessons are needed for complete TSIA2 coverage.
