@@ -1,3 +1,5 @@
+> **Current product direction (2026-11-06):** The replacement TSIA2 Mathematics program is the 20-day, four-strand, three-level curriculum defined in [docs/IMPLEMENTATION-CONTRACT.md](docs/IMPLEMENTATION-CONTRACT.md). The original five-day demonstration is obsolete and is not a source for new student experiences. There are no TSI production student records or earned points to migrate. The new free-response diagnostic is `content/diagnostic-20day-v1.json`. The 20-day schedule is authored, but differentiated lesson content is not yet complete. Do not describe this as a finished 20-day curriculum.
+
 # TSI Math Advisory
 
 Five 30-minute sessions for seniors preparing to retake TSIA2 Mathematics. Math teachers facilitate the lessons. This repository supplies curriculum for a future TSI Math section of **Ms. Whitby's Playground**.
