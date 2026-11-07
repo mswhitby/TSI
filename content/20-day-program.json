@@ -6,29 +6,30 @@
   "minutes_per_day": 30,
   "entry_paths": [
     {
-      "id": "class-code",
-      "description": "Enroll in a teacher section; take or reuse a diagnostic for placement."
+      "id": "tsi-study-code",
+      "description": "MATH01–MATH81 code selects a level in each of four strands; does not lock other content."
+    },
+    {
+      "id": "teacher-placement",
+      "description": "Teacher chooses recommended starting strand, level and lesson."
     },
     {
       "id": "diagnostic",
-      "description": "Start independently without a class; link enrollment later without resetting progress."
+      "description": "Diagnostic recommends per-strand starting levels; can be taken without enrolling in a section."
     }
   ],
   "levels": [
     {
-      "id": "foundation",
-      "label": "Foundation",
-      "description": "Prerequisite skills and explicit worked steps"
+      "id": "basic",
+      "label": "Basic"
     },
     {
-      "id": "developing",
-      "label": "Developing",
-      "description": "Grade-level connections and guided application"
+      "id": "proficient",
+      "label": "Proficient"
     },
     {
-      "id": "ready",
-      "label": "College-ready practice",
-      "description": "Multi-step TSIA2-style application and transfer"
+      "id": "advanced",
+      "label": "Advanced"
     }
   ],
   "strands": [
@@ -64,9 +65,9 @@
       "strand": "diagnostic",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "diagnostic"
     },
@@ -77,9 +78,9 @@
       "strand": "quantitative",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -90,9 +91,9 @@
       "strand": "quantitative",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -103,9 +104,9 @@
       "strand": "quantitative",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -116,9 +117,9 @@
       "strand": "quantitative",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "checkpoint"
     },
@@ -129,9 +130,9 @@
       "strand": "algebraic",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -142,9 +143,9 @@
       "strand": "algebraic",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -155,9 +156,9 @@
       "strand": "algebraic",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -168,9 +169,9 @@
       "strand": "algebraic",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -181,9 +182,9 @@
       "strand": "algebraic",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "checkpoint"
     },
@@ -194,9 +195,9 @@
       "strand": "geometry",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -207,9 +208,9 @@
       "strand": "geometry",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -220,9 +221,9 @@
       "strand": "geometry",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -233,9 +234,9 @@
       "strand": "geometry",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -246,9 +247,9 @@
       "strand": "geometry",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "checkpoint"
     },
@@ -259,9 +260,9 @@
       "strand": "statistics",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -272,9 +273,9 @@
       "strand": "statistics",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -285,9 +286,9 @@
       "strand": "statistics",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "lesson"
     },
@@ -298,9 +299,9 @@
       "strand": "mixed",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "reassessment"
     },
@@ -311,35 +312,24 @@
       "strand": "mixed",
       "minutes": 30,
       "level_variants": [
-        "foundation",
-        "developing",
-        "ready"
+        "basic",
+        "proficient",
+        "advanced"
       ],
       "kind": "practice-assessment"
     }
   ],
   "placement": {
-    "source": "diagnostic per-strand evidence; not an official TSIA2 score or readiness prediction",
-    "rules": [
-      "Assign a separate starting level per strand, not a single student-wide level.",
-      "Insufficient evidence routes to Foundation or a short confirmation check, never assumed mastery.",
-      "After a checkpoint, adjust only the affected strand level.",
-      "Teachers may override recommendations without erasing attempts or points.",
-      "Preserve original diagnostic attempt and subsequent reassessments."
-    ]
+    "priority": "Teacher override, then supplied MATH locator code, then diagnostic recommendation",
+    "navigation": "Recommendations shown first; Browse All exposes every lesson and level without locks",
+    "data": "Placement changes never erase history"
   },
   "content_contract": {
-    "per_day_per_level": [
-      "learn.md",
-      "practice.json",
-      "explanations.json"
-    ],
-    "practice_items_min": 4,
-    "checkpoint_items_min": 6,
-    "teacher_materials": "Teacher guide, misconceptions, skill tags, resource links, calculator eligibility",
-    "privacy": "No answer keys or hidden grading tests in publicly served student payloads"
+    "student": "Original Learn worked example and 4 practice items per level, with immediate explanation after answering",
+    "assessment": "Practice and simulation distinct; simulation hides feedback until submitted",
+    "teacher": "Instructor assignment, placement, due date and points are app functionality, not public curriculum data"
   },
-  "status": "curriculum-blueprint-not-complete",
+  "status": "curriculum-outline-with-draft-modules",
   "replacement_policy": {
     "instructional_content": "Existing TSI lessons, sequencing and learning materials may be replaced",
     "historical_records": "Never delete student progress, points, grades or submissions; archive superseded published lesson IDs and never reuse IDs for unrelated content",
