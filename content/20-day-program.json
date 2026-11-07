@@ -339,5 +339,10 @@
     "teacher_materials": "Teacher guide, misconceptions, skill tags, resource links, calculator eligibility",
     "privacy": "No answer keys or hidden grading tests in publicly served student payloads"
   },
-  "status": "curriculum-blueprint-not-complete"
+  "status": "curriculum-blueprint-not-complete",
+  "replacement_policy": {
+    "instructional_content": "Existing TSI lessons, sequencing and learning materials may be replaced",
+    "historical_records": "Never delete student progress, points, grades or submissions; archive superseded published lesson IDs and never reuse IDs for unrelated content",
+    "publication": "Draft until validated and approved"
+  }
 }
