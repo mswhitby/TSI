@@ -1,7 +1,7 @@
 name: Validate TSI curriculum
 on:
   push:
-    branches: [main, feature/tsia2-four-strand-content-20261106]
+    branches: [main, feature/tsia2-four-strand-content-20261106, feature/test-prep-curriculum-20261113]
   pull_request:
 jobs:
   curriculum:
@@ -15,6 +15,8 @@ jobs:
         run: python3 scripts/validate.py
       - name: Validate new strand draft lessons
         run: python3 scripts/validate_strands.py
+      - name: Validate shared Test Prep exam samples
+        run: python3 scripts/validate_test_prep.py
       - name: Validate all 81 MATH code profiles
         run: |
           python3 - <<'PY'
