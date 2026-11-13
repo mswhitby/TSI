@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "test-prep",
+  "title": "Test Prep",
+  "status": "draft",
+  "description": "Multiple exam curriculum catalog; original formative samples only",
+  "tracks": [
+    {
+      "id": "tsi-math",
+      "title": "TSIA2 Mathematics",
+      "content": "course.json",
+      "status": "work-in-progress",
+      "legacy_id": "tsi-math"
+    },
+    {
+      "id": "asvab",
+      "title": "ASVAB",
+      "content": "exams/asvab/track.json",
+      "status": "sample"
+    },
+    {
+      "id": "sat",
+      "title": "SAT",
+      "content": "exams/sat/track.json",
+      "status": "sample"
+    },
+    {
+      "id": "act",
+      "title": "ACT",
+      "content": "exams/act/track.json",
+      "status": "sample"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "sat",
+  "title": "SAT",
+  "subtitle": "Digital SAT",
+  "description": "Practice the Reading and Writing and Math sections. These samples are not adaptive and do not produce SAT scores.",
+  "source": "original independently authored formative examples",
+  "official_questions": false,
+  "official_score_prediction": false,
+  "reference": "https://satsuite.collegeboard.org/sat/practice-preparation",
+  "topics": [
+    {
+      "id": "sat-rw",
+      "title": "Reading and Writing",
+      "description": "Interpret short passages, revise sentences, and choose transitions.",
+      "questions": [
+        {
+          "id": "sat-rw-sample-01",
+          "prompt": "Choose the best transition: \"Maya planned to bike to school. _____, heavy rain forced her to take the bus.\"",
+          "options": [
+            "For example",
+            "However",
+            "Similarly",
+            "Therefore"
+          ],
+          "correct": 1,
+          "explanation": "However signals the contrast between Maya's plan and what happened."
+        },
+        {
+          "id": "sat-rw-sample-02",
+          "prompt": "Choose the grammatically correct sentence.",
+          "options": [
+            "Each of the notebooks have a label.",
+            "Each of the notebooks has a label.",
+            "Each of the notebooks are labeled.",
+            "Each of the notebook have labels."
+          ],
+          "correct": 1,
+          "explanation": "The subject each is singular, so it takes has."
+        }
+      ]
+    },
+    {
+      "id": "sat-math",
+      "title": "Math",
+      "description": "Use algebra and problem-solving strategies.",
+      "questions": [
+        {
+          "id": "sat-math-sample-01",
+          "prompt": "If f(x) = 2x + 5, what is f(4)?",
+          "options": [
+            "9",
+            "11",
+            "13",
+            "18"
+          ],
+          "correct": 2,
+          "explanation": "Substitute 4 for x: f(4) = 2(4) + 5 = 13."
+        },
+        {
+          "id": "sat-math-sample-02",
+          "prompt": "If 2x + y = 11 and y = 3, what is x?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "correct": 1,
+          "explanation": "Replace y with 3: 2x + 3 = 11, so 2x = 8 and x = 4."
+        }
+      ]
+    }
+  ]
+}
