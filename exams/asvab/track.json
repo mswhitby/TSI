@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "asvab",
+  "title": "ASVAB",
+  "subtitle": "Military aptitude",
+  "description": "Start with the four AFQT subjects; technical subtests can be added later.",
+  "source": "original independently authored formative examples",
+  "official_questions": false,
+  "official_score_prediction": false,
+  "reference": "https://www.officialasvab.com/applicants/sample-questions/",
+  "topics": [
+    {
+      "id": "asvab-ar",
+      "title": "Arithmetic Reasoning",
+      "description": "Use math to solve everyday word problems.",
+      "questions": [
+        {
+          "id": "asvab-ar-sample-01",
+          "prompt": "A supply team divides 96 bolts equally among 8 tool kits. How many bolts go into each kit?",
+          "options": [
+            "8",
+            "10",
+            "12",
+            "16"
+          ],
+          "correct": 2,
+          "explanation": "Divide 96 by 8. Each tool kit receives 12 bolts."
+        },
+        {
+          "id": "asvab-ar-sample-02",
+          "prompt": "A delivery vehicle travels 180 miles in 3 hours at a steady speed. What is its average speed?",
+          "options": [
+            "45 mph",
+            "60 mph",
+            "75 mph",
+            "90 mph"
+          ],
+          "correct": 1,
+          "explanation": "Average speed equals distance divided by time: 180 ÷ 3 = 60 mph."
+        }
+      ]
+    },
+    {
+      "id": "asvab-wk",
+      "title": "Word Knowledge",
+      "description": "Practice synonyms and vocabulary in context.",
+      "questions": [
+        {
+          "id": "asvab-wk-sample-01",
+          "prompt": "In the sentence \"The technician was meticulous when checking each connection,\" meticulous most nearly means:",
+          "options": [
+            "hurried",
+            "careful",
+            "uninterested",
+            "unprepared"
+          ],
+          "correct": 1,
+          "explanation": "Meticulous describes someone who gives careful attention to detail."
+        },
+        {
+          "id": "asvab-wk-sample-02",
+          "prompt": "The word \"scarce\" most nearly means:",
+          "options": [
+            "plentiful",
+            "fragile",
+            "limited",
+            "unusual"
+          ],
+          "correct": 2,
+          "explanation": "If something is scarce, there is not much of it available."
+        }
+      ]
+    },
+    {
+      "id": "asvab-pc",
+      "title": "Paragraph Comprehension",
+      "description": "Identify main ideas and supporting details.",
+      "questions": [
+        {
+          "id": "asvab-pc-sample-01",
+          "prompt": "Passage: The neighborhood library added Saturday hours because weekday attendance had increased. Staff hope the extra day will help working families visit. Why did the library extend its schedule?",
+          "options": [
+            "To replace weekday hours",
+            "To make visits easier for more people",
+            "To reduce staff",
+            "To host only weekend events"
+          ],
+          "correct": 1,
+          "explanation": "The passage says Saturday hours respond to demand and help working families visit."
+        },
+        {
+          "id": "asvab-pc-sample-02",
+          "prompt": "Passage: Before using the lab, workers inspect equipment, record damaged items, and report problems. This routine helps prevent interruptions and injuries. What is the main purpose of the routine?",
+          "options": [
+            "Improving safety and reliability",
+            "Making the lab look new",
+            "Reducing all written records",
+            "Increasing equipment costs"
+          ],
+          "correct": 0,
+          "explanation": "The checklist catches problems early and lowers risk to people and equipment."
+        }
+      ]
+    },
+    {
+      "id": "asvab-mk",
+      "title": "Mathematics Knowledge",
+      "description": "Review algebra, geometry, and number sense.",
+      "questions": [
+        {
+          "id": "asvab-mk-sample-01",
+          "prompt": "Solve for x: 3(x − 2) = 15.",
+          "options": [
+            "3",
+            "5",
+            "7",
+            "9"
+          ],
+          "correct": 2,
+          "explanation": "Divide by 3: x − 2 = 5. Add 2: x = 7."
+        },
+        {
+          "id": "asvab-mk-sample-02",
+          "prompt": "What is the area of a triangle with a base of 10 units and a height of 7 units?",
+          "options": [
+            "17 square units",
+            "35 square units",
+            "70 square units",
+            "140 square units"
+          ],
+          "correct": 1,
+          "explanation": "Triangle area is one-half times base times height: (10 × 7) ÷ 2 = 35."
+        }
+      ]
+    }
+  ]
+}

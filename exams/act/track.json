@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "act",
+  "title": "ACT",
+  "subtitle": "Enhanced ACT",
+  "description": "Practice English, Math, Reading, and optional Science using the updated ACT structure.",
+  "source": "original independently authored formative examples",
+  "official_questions": false,
+  "official_score_prediction": false,
+  "reference": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/act-exam-sections-and-structure.html",
+  "topics": [
+    {
+      "id": "act-english",
+      "title": "English",
+      "description": "Revise sentences for grammar and clarity.",
+      "questions": [
+        {
+          "id": "act-english-sample-01",
+          "prompt": "Choose the correct verb: \"The team of engineers _____ ready to begin.\"",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "have"
+          ],
+          "correct": 1,
+          "explanation": "The singular subject team takes the singular verb is."
+        },
+        {
+          "id": "act-english-sample-02",
+          "prompt": "Choose the correctly punctuated sentence.",
+          "options": [
+            "After the storm the street was quiet.",
+            "After the storm, the street was quiet.",
+            "After, the storm the street was quiet.",
+            "After the storm the, street was quiet."
+          ],
+          "correct": 1,
+          "explanation": "An introductory phrase is commonly followed by a comma."
+        }
+      ]
+    },
+    {
+      "id": "act-math",
+      "title": "Math",
+      "description": "Practice algebra, geometry, and problem solving.",
+      "questions": [
+        {
+          "id": "act-math-sample-01",
+          "prompt": "What is the slope of the line through (2, 1) and (6, 9)?",
+          "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+          ],
+          "correct": 1,
+          "explanation": "Slope = change in y ÷ change in x = (9 − 1) ÷ (6 − 2) = 8 ÷ 4 = 2."
+        },
+        {
+          "id": "act-math-sample-02",
+          "prompt": "A rectangle measures 8 inches by 5 inches. What is its perimeter?",
+          "options": [
+            "13 inches",
+            "26 inches",
+            "40 inches",
+            "80 inches"
+          ],
+          "correct": 1,
+          "explanation": "Perimeter = 2(length + width) = 2(8 + 5) = 26 inches."
+        }
+      ]
+    },
+    {
+      "id": "act-reading",
+      "title": "Reading",
+      "description": "Find key details and reasonable inferences.",
+      "questions": [
+        {
+          "id": "act-reading-sample-01",
+          "prompt": "Passage: Lena repaired an old bicycle rather than buy a new one. She replaced the chain and adjusted the brakes so she could use it to commute. Which statement is supported?",
+          "options": [
+            "Lena sold the bike.",
+            "Lena intends to ride the repaired bike.",
+            "Lena cannot fix brakes.",
+            "Lena purchased a new bike."
+          ],
+          "correct": 1,
+          "explanation": "The passage explicitly says Lena repaired the bike to use it for commuting."
+        },
+        {
+          "id": "act-reading-sample-02",
+          "prompt": "Passage: Residents created a neighborhood garden on an empty lot. Volunteers donated seeds, installed raised beds, and shared the harvest. What best describes the project?",
+          "options": [
+            "A commercial farm run by one company",
+            "A volunteer project that benefits neighbors",
+            "A plan to close the lot permanently",
+            "An indoor science experiment"
+          ],
+          "correct": 1,
+          "explanation": "The volunteers worked together on a shared garden and harvest."
+        }
+      ]
+    },
+    {
+      "id": "act-science",
+      "title": "Science (optional)",
+      "description": "Interpret experimental results, charts, and evidence.",
+      "questions": [
+        {
+          "id": "act-science-sample-01",
+          "prompt": "In an experiment, a plant grew 2 cm at 10°C, 4 cm at 20°C, and 6 cm at 30°C over the same period. What pattern is shown?",
+          "options": [
+            "Growth decreases as temperature increases.",
+            "Growth remains constant.",
+            "Growth increases with temperature in these trials.",
+            "Temperature has no measurable relationship."
+          ],
+          "correct": 2,
+          "explanation": "The recorded growth rises from 2 to 4 to 6 cm as temperature increases across these trials."
+        },
+        {
+          "id": "act-science-sample-02",
+          "prompt": "Two identical seedlings get the same light and water. One receives fertilizer and the other does not. Which variable is intentionally changed?",
+          "options": [
+            "Amount of light",
+            "Amount of water",
+            "Type of plant",
+            "Use of fertilizer"
+          ],
+          "correct": 3,
+          "explanation": "Fertilizer is the independent variable; the other conditions are kept the same."
+        }
+      ]
+    }
+  ]
+}

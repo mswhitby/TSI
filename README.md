@@ -72,3 +72,10 @@ All authored lesson prose, worked examples, questions, and teacher explanations 
 Four new original lessons are now authored in `lessons/strands/` and indexed in `content/strand-lessons-v1.json`: unit rates/proportions, factoring quadratics, right triangles/area, and data summaries/probability. Each has a guided worked example and four multiple-choice practice questions; explained instructional keys are in `teachers/strands/`. These files are **draft curriculum**, not yet included in `course.json` or the live Playground build. Published Week 1 IDs, order, student progress, and points remain unchanged.
 
 Run `python3 scripts/validate_strands.py` for structural checks and `python3 scripts/validate.py` for existing Week 1 checks. The new answer explanations require teacher editorial review before publication; these are not protected grading tests. More lessons are needed for complete TSIA2 coverage.
+
+
+## Multi-exam Test Prep proposal (feature branch only)
+
+The feature/test-prep-curriculum-20261113 branch adds a top-level test-prep.json catalog pointing to the existing TSI Math work and original ASVAB, SAT and ACT sample questions in exams/. It is a proposal to reuse this repository and its history under the future name mswhitby/test-prep, without changing TSI lesson IDs or overwriting the 20-day math curriculum.
+
+No official exam questions, official score predictions, live student records or production site deployment are included. See docs/TEST-PREP-MIGRATION.md and run python3 scripts/validate_test_prep.py.
